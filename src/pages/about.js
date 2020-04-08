@@ -1,13 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout.js"
+import Title from "../components/title.js"
+
 
 
 export default () => (
 <Layout>
-    <h1>
-        This is the about page
-    </h1>
+    <Title text="About Shaw"/>
+    
     <div>
     <Link to="/">Home</Link> | <Link to="/about">About</Link>
     </div>

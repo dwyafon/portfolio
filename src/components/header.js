@@ -46,7 +46,7 @@ export default () => ( //Component
     <header className={styles.container}>
 
         <div className={styles.row}>
-            <HomeButton to="/" text="Home" />
+            <HomeButton to="/" text="Process Blog" />
             <SocialButton site="github" username="crwydryn"></SocialButton>
             <SocialButton site="linkedin" username="shawmalcolm"></SocialButton>
             <SocialButton site="twitter" username="dwyafon"></SocialButton>

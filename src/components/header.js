@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, StaticQuery, graphql } from "gatsby"
 import styles from './header.module.scss'
 
 //HeaderLink component: subcomponent of Header component
@@ -39,14 +39,27 @@ const SocialButton = (props) => {
         </a>
     )
 
-} 
+}
 
 export default () => ( //Component
 
+<StaticQuery //static queries accept two properties: query and render
+
+query = {graphql `query {
+        site {
+            siteMetadata {
+                title
+            }
+        }
+    }
+`}
+
+//The result of the GraphQL query above is then passed to the render property as data
+render = { data => (
     <header className={styles.container}>
 
         <div className={styles.row}>
-            <HomeButton to="/" text="Process Blog" />
+            <HomeButton to="/" text={data.site.siteMetadata.title} />
             <SocialButton site="github" username="crwydryn"></SocialButton>
             <SocialButton site="linkedin" username="shawmalcolm"></SocialButton>
             <SocialButton site="twitter" username="dwyafon"></SocialButton>
@@ -59,7 +72,13 @@ export default () => ( //Component
 
     </header>
 
+        )}
+
+    />
+
 )
+    
+
 
 
 // import React from 'react'

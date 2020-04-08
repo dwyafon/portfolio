@@ -7,9 +7,8 @@
 module.exports = {
   /* Your site config here */
 
-
 siteMetadata: {
-  title: "You're Awesome"
+  title: "Stay Awesome"
 },
 
 plugins: [

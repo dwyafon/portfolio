@@ -7,7 +7,14 @@
 module.exports = {
   /* Your site config here */
 plugins: [
-  'gatsby-plugin-sass'
+  'gatsby-plugin-sass',
+  {
+    resolve: "gatsby-source-filesystem",
+    options: {
+      name: "files",
+      path: `${__dirname}/src/markdown`
+    },
+  },
 ]
 
 }

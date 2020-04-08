@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
 
 siteMetadata: {
-  title: "Stay Awesome"
+  title: "Shaw Malcolm"
 },
 
 plugins: [
@@ -20,6 +20,7 @@ plugins: [
       path: `${__dirname}/src/markdown`
     },
   },
+  "gatsby-transformer-remark"
 ]
 
 }

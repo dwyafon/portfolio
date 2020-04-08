@@ -66,7 +66,7 @@ render = { data => (
         </div>
 
         <div className={styles.row}>
-            <HeaderLink to="/" text='Articles' />
+            <HeaderLink to="/blog" text='Blog' />
             <HeaderLink to="/about" text='About' />
         </div>
 

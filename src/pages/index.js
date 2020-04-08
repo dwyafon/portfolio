@@ -11,7 +11,7 @@ export default () => (
     <Layout>
         <Title text="Shaw Malcolm" subtitle= "Javascript Developer"/>
         <div>
-            <Link to="/">Home</Link> | <Link to="/about">About</Link>
+            <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/blog">Blog</Link>
         </div>
         <p> 
             ES6 | React | Redux | HTML5 | CSS3 | SASS 

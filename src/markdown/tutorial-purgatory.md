@@ -1,11 +1,11 @@
 ---
-title: "Blog Post 1"
+title: "Tutorial Purgatory"
 date: "2020-04-08"
 image: "https://source.unsplash.com/150x150/?gatsbyjs"
 keywords: "balloon"
 ---
 
-#Blog Post 1
+#Tutorial Purgatory
 
 Dolore anim duis enim sint elit et dolor pariatur ipsum anim dolor et consequat velit. Incididunt proident sunt Lorem nostrud amet. Enim culpa sunt sunt laboris. Eu excepteur enim consectetur amet do in ullamco dolore velit magna. Sunt nisi qui nostrud qui.
 

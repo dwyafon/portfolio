@@ -1,11 +1,11 @@
 ---
-title: "Blog Post 2"
+title: "Community"
 date: "2020-04-08"
 image: "https://source.unsplash.com/150x150/?graphql"
-keywords: "data"
+keywords: "community"
 ---
 
-#Blog Post 2
+#Community
 
 Ipsum aliquip aute commodo aliqua qui ex enim anim esse excepteur ex. Veniam cillum et Lorem duis nulla elit laborum nulla ut aliqua minim anim. Pariatur cillum enim adipisicing ipsum. Do ullamco occaecat cupidatat veniam sunt adipisicing non nostrud laboris ut est. Fugiat voluptate in excepteur ullamco fugiat Lorem nostrud Lorem sint nostrud officia ex. Minim mollit aliqua Lorem voluptate laborum pariatur cupidatat excepteur ipsum magna adipisicing id aliquip quis.
 

@@ -9,7 +9,7 @@ import Title from "../components/title.js"
 export default () => (
 
     <Layout>
-        <Title text="Shaw Malcolm" subtitle= "Javascript Developer (in training"/>
+        <Title text="Shaw Malcolm" subtitle= "Javascript Developer (in training)"/>
         <p> 
             ES6 | React | Redux | HTML5 | CSS3 | SASS 
         </p>
